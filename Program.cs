@@ -11,7 +11,7 @@ string[] words = text.Split(new[] { '!', '?', ' ' });
 Regex name = new Regex(@"www\.[a-z]*\.[a-z]*\.ru");
 
 //Ищет во входной строке все вхождения регулярного выражения и возвращает все соответсвия
-//Новый комментарий
+//Новый комментарий написан
 
 MatchCollection mat = name.Matches(text);
 
