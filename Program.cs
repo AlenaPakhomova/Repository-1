@@ -14,6 +14,7 @@ Regex name = new Regex(@"www\.[a-z]*\.[a-z]*\.ru");
 //Новый комментарий написан
 //scbkjzx
 //Комментарий для git
+//Комментарий для создания коммита
 
 MatchCollection mat = name.Matches(text);
 
